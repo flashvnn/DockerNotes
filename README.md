@@ -3,7 +3,7 @@
 ### Download docker:
 	docker pull php:5.6-apache
 
-### run docker with container name "app1" mapping machine port 80 container port 80
+### Run docker with container name "app1" mapping machine port 80 container port 80
 	docker run --name app1 -d -p 80:80 -it -v "$PWD":/var/www/html php:5.6-apache
 
 ### List running docker
